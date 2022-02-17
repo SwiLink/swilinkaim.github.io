@@ -20,7 +20,7 @@ board.addEventListener('click', (event)=> {
     if (event.target.classList.contains('circle')){
         count+=1
     }
-    congrat.innerHTML = `<h1>Congratulations! Your score is: <span class='primary'>${count}</span></h1>`
+    congrat.innerHTML = `<h1>Congratulations! Your score is:<span class='primary'>${count}</span></h1>`
 })
 
 congrat.innerHTML = `<h1>What's happened? Your score is 0</h1>`
